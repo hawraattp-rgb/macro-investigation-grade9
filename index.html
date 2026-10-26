@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#123c35">
+<meta name="description" content="درس تفاعلي للصف التاسع في تقنية المعلومات: كيف نعد تقريرًا رقميًا موثوقًا؟">
+<title>مراسلون رقميون | درس تفاعلي للصف التاسع</title>
+<style>
+:root{--green:#17634f;--deep:#123c35;--red:#bd3439;--gold:#e8b85c;--cream:#fbf8f0;--ink:#18332e;--muted:#667772;--line:#dce6df;--white:#fff;--pale:#eaf3ee;--shadow:0 16px 40px rgba(18,60,53,.09)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Tahoma,"Arial",sans-serif;line-height:1.8}button,input,textarea{font:inherit}button{cursor:pointer}.topbar{background:var(--deep);color:#fff;padding:12px 5vw;display:flex;align-items:center;justify-content:space-between;gap:12px}.brand{display:flex;align-items:center;gap:10px;font-weight:800}.brand-mark{width:42px;height:42px;border-radius:14px;background:#fff;color:var(--green);display:grid;place-items:center;font-size:23px}.topbar small{color:#d8e9df}.top-link{color:#fff;text-decoration:none;border:1px solid #66877d;padding:7px 14px;border-radius:999px;font-size:13px}.hero{background:radial-gradient(circle at 12% 20%,rgba(232,184,92,.18),transparent 26%),linear-gradient(125deg,#123c35,#1b6a54);color:#fff;padding:62px 5vw 54px;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;width:260px;height:260px;border:1px solid rgba(255,255,255,.12);border-radius:50%;left:-80px;bottom:-150px;box-shadow:0 0 0 35px rgba(255,255,255,.025),0 0 0 70px rgba(255,255,255,.02)}.hero-inner{max-width:1100px;margin:auto;position:relative;z-index:1}.eyebrow{display:inline-flex;gap:8px;align-items:center;border:1px solid rgba(255,255,255,.3);padding:5px 13px;border-radius:999px;font-size:13px;color:#e9f2ed}.hero h1{font-size:clamp(32px,5vw,55px);line-height:1.25;max-width:760px;margin:18px 0 12px}.hero h1 span{color:var(--gold)}.hero p{max-width:690px;color:#e1eee8;font-size:17px;margin:0 0 24px}.hero-actions{display:flex;flex-wrap:wrap;gap:10px}.btn{border:0;border-radius:12px;padding:11px 18px;font-weight:800;transition:transform .15s,opacity .15s}.btn:hover{transform:translateY(-1px)}.btn-primary{background:var(--gold);color:#27372e}.btn-light{background:#fff;color:var(--deep)}.btn-outline{background:transparent;color:var(--green);border:1px solid #b9cec3}.hero .btn-outline{border-color:rgba(255,255,255,.45);color:#fff}.wrap{max-width:1100px;margin:auto;padding:28px 5vw 70px}.overview{display:grid;grid-template-columns:1.2fr .8fr;gap:18px;margin-top:-2px}.panel,.stage{background:#fff;border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow)}.panel{padding:22px}.panel h2,.panel h3{margin-top:0}.panel p{margin-bottom:0}.objective-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.pill{background:var(--pale);color:var(--green);border-radius:999px;padding:5px 11px;font-size:13px;font-weight:700}.progress-card{display:flex;flex-direction:column;justify-content:center}.progress-head{display:flex;align-items:center;justify-content:space-between;gap:10px;font-weight:800}.progress-track{height:10px;background:#e9efeb;border-radius:999px;overflow:hidden;margin:13px 0 6px}.progress-fill{height:100%;width:0;background:linear-gradient(90deg,var(--green),#60a17c);border-radius:999px;transition:width .35s}.progress-caption{color:var(--muted);font-size:13px}.journey-title{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:34px 0 14px}.journey-title h2{margin:0;font-size:25px}.journey-title p{margin:0;color:var(--muted);font-size:14px}.stage{position:relative;margin:14px 0;padding:clamp(18px,3vw,30px);box-shadow:0 7px 22px rgba(18,60,53,.045);scroll-margin-top:18px}.stage.locked{opacity:.72;background:#f5f6f2}.stage.locked .stage-content{display:none}.stage.locked .locked-note{display:flex}.locked-note{display:none;align-items:center;gap:9px;color:var(--muted);font-weight:700}.stage-top{display:flex;gap:14px;align-items:flex-start;margin-bottom:15px}.step-num{flex:0 0 48px;height:48px;border-radius:15px;background:var(--pale);color:var(--green);font-weight:900;font-size:20px;display:grid;place-items:center}.stage.done .step-num{background:var(--green);color:#fff}.stage h3{margin:0 0 3px;font-size:21px}.stage-sub{margin:0;color:var(--muted);font-size:14px}.stage-content{padding-right:62px}.news-card{background:#fff8e9;border:1px solid #f0d9a7;border-right:5px solid var(--red);padding:18px 20px;border-radius:14px}.news-label{color:var(--red);font-size:12px;font-weight:900;letter-spacing:.3px}.news-card h4{font-size:19px;margin:4px 0}.note{font-size:13px;color:#77694d;margin-top:8px}.grid-two{display:grid;grid-template-columns:1fr 1fr;gap:14px}.fact-box{background:#f3f8f4;border:1px solid var(--line);border-radius:14px;padding:15px}.fact-box strong{display:block;color:var(--green);margin-bottom:4px}.checklist{display:grid;gap:10px;margin:15px 0}.checkline{display:flex;align-items:flex-start;gap:10px;padding:11px 13px;background:#f7faf7;border:1px solid var(--line);border-radius:12px}.checkline input{margin-top:7px;accent-color:var(--green);width:17px;height:17px;flex:0 0 auto}.expert{display:grid;grid-template-columns:66px 1fr;gap:15px;align-items:start;background:#eef5f1;border-radius:15px;padding:18px}.expert-avatar{height:60px;width:60px;border-radius:20px;background:var(--green);color:white;display:grid;place-items:center;font-size:28px}.qa{border-top:1px solid #d5e3da;margin-top:12px;padding-top:12px}.qa strong{color:var(--green)}.question{border:1px solid var(--line);padding:15px;border-radius:14px;margin:12px 0}.question p{margin:0 0 9px;font-weight:800}.options{display:flex;flex-wrap:wrap;gap:8px}.option{background:#fff;border:1px solid #cbd9d0;color:var(--ink);padding:7px 13px;border-radius:10px}.option[aria-pressed="true"]{background:var(--green);color:#fff;border-color:var(--green)}.feedback{min-height:26px;margin:7px 0;color:var(--muted);font-size:14px;font-weight:700}.feedback.good{color:#17634f}.feedback.bad{color:#b52e35}.field{display:grid;gap:5px;margin:12px 0}.field label{font-weight:800;font-size:14px}.field input,.field textarea,textarea{width:100%;border:1px solid #cbd9d0;border-radius:11px;padding:11px 13px;background:#fff;color:var(--ink);outline:none}.field input:focus,.field textarea:focus,textarea:focus{border-color:var(--green);box-shadow:0 0 0 3px rgba(23,99,79,.12)}textarea{min-height:105px;resize:vertical}.challenge-data{display:flex;flex-wrap:wrap;gap:10px;margin:13px 0}.data-chip{background:#f5f0e4;border:1px solid #e7dcc3;padding:8px 12px;border-radius:10px;font-size:14px}.output{display:none;background:#f5faf6;border:1px dashed #91b7a1;border-radius:14px;padding:18px;margin-top:15px;white-space:pre-wrap}.output.show{display:block}.small{font-size:13px;color:var(--muted)}.status-line{min-height:24px;margin:9px 0;color:var(--green);font-weight:800;font-size:14px}.final-task{background:linear-gradient(135deg,#f1f7f1,#fffaf0);border:1px solid #d7e6d9;border-radius:16px;padding:18px}.footer{background:var(--deep);color:#e7f0eb;padding:24px 5vw;text-align:center}.footer strong{color:#fff}.footer small{display:block;color:#bcd1c6;margin-top:4px}.toast{position:fixed;bottom:18px;left:18px;background:var(--deep);color:#fff;padding:12px 16px;border-radius:12px;box-shadow:var(--shadow);z-index:5;max-width:calc(100vw - 36px);display:none}.toast.show{display:block;animation:fade .2s ease}@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}@media(max-width:720px){.overview,.grid-two{grid-template-columns:1fr}.hero{padding-top:42px}.hero p{font-size:15px}.stage-content{padding-right:0}.stage-top{gap:10px}.step-num{width:42px;height:42px;flex-basis:42px}.journey-title{align-items:flex-start;flex-direction:column}.topbar{padding-inline:4vw}.topbar small{display:none}.expert{grid-template-columns:1fr}.expert-avatar{width:48px;height:48px}.panel{padding:18px}}
+@media print{.topbar,.hero-actions,.btn,.footer,.toast{display:none!important}body{background:#fff}.stage,.panel{box-shadow:none;break-inside:avoid}.stage.locked .stage-content{display:block}.stage.locked .locked-note{display:none}.wrap{max-width:none}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><div class="brand-mark">✦</div><div>مراسلون رقميون<small style="display:block;font-weight:400;font-size:11px">تقنية المعلومات • الصف التاسع</small></div></div>
+  <a class="top-link" href="#journey">ابدأ الرحلة ↓</a>
+</header>
+<section class="hero">
+  <div class="hero-inner">
+    <span class="eyebrow">📰 مختبر صحفي تفاعلي · عُمان</span>
+    <h1>من المعلومة إلى القرار…<br><span>كن مراسلًا رقميًا مسؤولًا!</span></h1>
+    <p>هل تستطيع تحويل معلومات متفرقة إلى تقرير واضح وموثوق؟ خُض التحقيق خطوة بخطوة، واختبر مهاراتك في التحقق من المصادر وتنظيم الحقائق وصياغة تقرير يخدم مجتمعك.</p>
+    <div class="hero-actions"><button class="btn btn-primary" onclick="document.getElementById('journey').scrollIntoView({behavior:'smooth'})">ابدأ التحقيق الآن</button><button class="btn btn-outline" onclick="window.print()">طباعة الدرس</button></div>
+  </div>
+</section>
+<main class="wrap">
+  <section class="overview" aria-label="أهداف الدرس والتقدم">
+    <div class="panel">
+      <h2>🎯 مهمتك اليوم</h2>
+      <p>في نهاية الرحلة ستتمكن من تمييز الحقيقة من الرأي، والتحقق من موثوقية المصدر، وتنظيم المعلومات في تقرير قصير وواضح.</p>
+      <div class="objective-list"><span class="pill">التحقق من المعلومات</span><span class="pill">تنظيم التقرير</span><span class="pill">المواطنة الرقمية</span><span class="pill">الهوية العُمانية</span></div>
+    </div>
+    <div class="panel progress-card">
+      <div class="progress-head"><span>تقدمك في التحقيق</span><span id="progressText">0 من 7</span></div>
+      <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+      <div class="progress-caption" id="progressCaption">ابدأ بالمرحلة الأولى لفتح بقية المراحل.</div>
+    </div>
+  </section>
+
+  <div class="journey-title" id="journey"><h2>رحلة التحقيق الصحفي</h2><p>أنجز المهمة العملية في كل مرحلة لفتح المرحلة التالية.</p></div>
+
+  <section class="stage" id="stage1" data-stage="1">
+    <div class="stage-top"><div class="step-num">١</div><div><h3>الخبر الرئيس: ما القصة؟</h3><p class="stage-sub">اقرأ الخبر التدريبي وحدد المشكلة التي تحتاج إلى تقرير.</p></div></div>
+    <div class="stage-content">
+      <div class="news-card"><div class="news-label">خبر تدريبي افتراضي — ليس خبرًا حقيقيًا</div><h4>مدرستنا تطلق مبادرة «معلومة موثوقة»</h4><p>لاحظ فريق من طلبة الصف التاسع أن بعض الرسائل المتداولة في مجموعات الطلبة تُنشر دون ذكر مصدرها. اقترح الفريق إعداد تقرير يوضح كيف نتحقق من المعلومات قبل مشاركتها، مع الاستفادة من المصادر الرسمية في سلطنة عُمان.</p><div class="note">مهمتك كمراسل: لا تكتفِ بتكرار الخبر؛ اسأل عن الدليل والمصدر والنتيجة.</div></div>
+      <div class="grid-two" style="margin-top:14px"><div class="fact-box"><strong>🔎 سؤال التحقيق</strong>كيف نعرف أن المعلومة جديرة بالثقة؟</div><div class="fact-box"><strong>🇴🇲 ارتباط بهويتنا</strong>المسؤولية والصدق واحترام المجتمع قيم نُظهرها عندما ننشر معلومات دقيقة.</div></div>
+      <p style="margin:15px 0 10px">قبل المتابعة، تذكّر: <b>التقرير</b> يعرض معلومات وحقائق منظمة تساعد القارئ على الفهم واتخاذ القرار.</p>
+      <button class="btn btn-primary" onclick="completeStage(1)">أنهيت قراءة الخبر ✓</button><div class="status-line" id="status1" aria-live="polite"></div>
+    </div>
+    <div class="locked-note">🔒 أكمل المرحلة السابقة لفتح هذه المرحلة.</div>
+  </section>
+
+  <section class="stage locked" id="stage2" data-stage="2">
+    <div class="stage-top"><div class="step-num">٢</div><div><h3>هل تعلم؟ أخلاقيات المراسل الرقمي</h3><p class="stage-sub">المعلومة الصحيحة تحمي الناس، أما الشائعة فقد تضللهم.</p></div></div>
+    <div class="stage-content">
+      <div class="grid-two"><div class="fact-box"><strong>💡 هل تعلم؟</strong>التقرير الجيد يعتمد على معلومات موثوقة ومنظمة، ويعرض النتائج بوضوح.</div><div class="fact-box"><strong>🛡️ ميثاق المراسل</strong>تحقق من المصدر، افصل الحقيقة عن الرأي، واحترم خصوصية الآخرين قبل النشر.</div></div>
+      <p><b>المهمة العملية:</b> علّم على كل ممارسة مسؤولة يجب أن يلتزم بها المراسل.</p>
+      <div class="checklist"><label class="checkline"><input type="checkbox" class="ethics"> أتحقق من المعلومة في مصدر موثوق قبل مشاركتها.</label><label class="checkline"><input type="checkbox" class="ethics"> أذكر الحقائق بوضوح وأميزها عن آرائي الشخصية.</label><label class="checkline"><input type="checkbox" class="ethics"> أحترم خصوصية الأشخاص ولا أنشر بياناتهم دون إذن.</label></div>
+      <button class="btn btn-primary" onclick="checkEthics()">اعتماد ميثاقي الصحفي</button><div class="feedback" id="ethicsFeedback" aria-live="polite"></div>
+      <div class="status-line" id="status2"></div>
+    </div><div class="locked-note">🔒 أكمل المرحلة السابقة لفتح هذه المرحلة.</div>
+  </section>
+
+  <section class="stage locked" id="stage3" data-stage="3">
+    <div class="stage-top"><div class="step-num">٣</div><div><h3>لقاء مع الخبير</h3><p class="stage-sub">اسأل قبل أن تكتب، واستمع قبل أن تحكم.</p></div></div>
+    <div class="stage-content">
+      <div class="expert"><div class="expert-avatar">🎙️</div><div><b>لقاء تمثيلي لأغراض الدرس</b><p class="small">ضيفنا: مختص افتراضي في الإعلام الرقمي</p><div class="qa"><strong>س: ما أول خطوة قبل كتابة التقرير؟</strong><br>ج: تحديد الموضوع وجمع المعلومات من مصادر موثوقة، ثم التأكد من صحتها.</div><div class="qa"><strong>س: كيف أجعل التقرير واضحًا؟</strong><br>ج: أختار عنوانًا مناسبًا، وأرتب المعلومات، وأعرض النتائج بلغة سهلة.</div><div class="qa"><strong>س: ماذا أفعل إذا تعارضت معلومتان؟</strong><br>ج: أتحقق من مصدر كل معلومة، وأرجع إلى مصدر رسمي أو أكثر قبل اعتمادها.</div></div></div>
+      <div class="question"><p>سؤال المراسل: أي تصرف هو الأفضل إذا وصلتك معلومة مثيرة دون مصدر؟</p><div class="options" data-question="expert"><button class="option" onclick="choose(this,false,'لا تنشر قبل التحقق؛ سرعة النشر لا تعني صحة المعلومة.')">أنشرها فورًا</button><button class="option" onclick="choose(this,true,'أحسنت! التحقق من المصدر خطوة أساسية.')">أتحقق من مصدرها أولًا</button><button class="option" onclick="choose(this,false,'إعادة الإرسال لا تثبت صحة الخبر.')">أعيد إرسالها وأسأل لاحقًا</button></div><div class="feedback" id="expertFeedback"></div></div>
+      <div class="status-line" id="status3"></div>
+    </div><div class="locked-note">🔒 أكمل المرحلة السابقة لفتح هذه المرحلة.</div>
+  </section>
+
+  <section class="stage locked" id="stage4" data-stage="4">
+    <div class="stage-top"><div class="step-num">٤</div><div><h3>المفاجأة التفاعلية: غرفة التحقق</h3><p class="stage-sub">ثلاثة أسئلة قصيرة تفصل المراسل الدقيق عن ناقل الشائعات.</p></div></div>
+    <div class="stage-content">
+      <div class="question"><p>١. يجب أن يعتمد التقرير على معلومات موثوقة ومنظمة.</p><div class="options" data-question="q1"><button class="option" onclick="quiz(this,true,'صحيح. الموثوقية والتنظيم من أساسيات التقرير.')">صح</button><button class="option" onclick="quiz(this,false,'راجع الفكرة: التقرير الجيد يحتاج إلى معلومات موثوقة.')">خطأ</button></div><div class="feedback" id="q1Feedback"></div></div>
+      <div class="question"><p>٢. إذا انتشر الخبر كثيرًا فهذا يكفي لإثبات صحته.</p><div class="options" data-question="q2"><button class="option" onclick="quiz(this,false,'ليس بالضرورة؛ الانتشار لا يثبت صحة الخبر.')">صح</button><button class="option" onclick="quiz(this,true,'صحيح! الانتشار لا يغني عن التحقق من المصدر.')">خطأ</button></div><div class="feedback" id="q2Feedback"></div></div>
+      <div class="question"><p>٣. أيٌّ مما يأتي أقرب إلى مصدر موثوق عند البحث عن تنبيه رسمي؟</p><div class="options" data-question="q3"><button class="option" onclick="quiz(this,false,'الرسالة المجهولة تحتاج إلى تحقق ولا تُعد دليلًا.')">رسالة مجهولة في مجموعة</button><button class="option" onclick="quiz(this,true,'أحسنت! ارجع إلى الجهة الرسمية المختصة.')">إعلان من الجهة الرسمية المختصة</button><button class="option" onclick="quiz(this,false,'رأي الصديق لا يحل محل المصدر الأصلي.')">رأي صديق</button></div><div class="feedback" id="q3Feedback"></div></div>
+      <button class="btn btn-primary" onclick="checkQuiz()">تسليم الإجابات</button><div class="status-line" id="status4"></div>
+    </div><div class="locked-note">🔒 أكمل المرحلة السابقة لفتح هذه المرحلة.</div>
+  </section>
+
+  <section class="stage locked" id="stage5" data-stage="5">
+    <div class="stage-top"><div class="step-num">٥</div><div><h3>تحدي الفريق: ابنِ تقريرًا من الأدلة</h3><p class="stage-sub">استخدم البيانات التدريبية التالية لصياغة تقرير قصير.</p></div></div>
+    <div class="stage-content">
+      <p>تخيّل أن فريقك أجرى استبانة صفية تجريبية حول التحقق من الأخبار. هذه الأرقام <b>افتراضية للتدريب فقط</b>.</p>
+      <div class="challenge-data"><span class="data-chip">👥 عدد المشاركين: ٢٠ طالبًا</span><span class="data-chip">✅ يتحققون من المصدر: ١٥</span><span class="data-chip">❓ لا يتحققون دائمًا: ٥</span></div>
+      <div class="field"><label for="reportTitle">١. عنوان التقرير</label><input id="reportTitle" maxlength="90" placeholder="مثال: طلبة واعون لمصادر الأخبار"></div>
+      <div class="field"><label for="reportFact">٢. اكتب حقيقة تدعمها البيانات</label><textarea id="reportFact" maxlength="240" placeholder="اكتب ما تخبرنا به الأرقام دون مبالغة..."></textarea></div>
+      <div class="field"><label for="reportAdvice">٣. اقترح توصية عملية</label><textarea id="reportAdvice" maxlength="240" placeholder="ما الخطوة التي تقترحها لتحسين التحقق من الأخبار؟"></textarea></div>
+      <button class="btn btn-primary" onclick="buildReport()">إنشاء مسودة التقرير</button><div class="feedback" id="reportFeedback"></div>
+      <div class="output" id="reportOutput"></div>
+      <div class="status-line" id="status5"></div>
+    </div><div class="locked-note">🔒 أكمل المرحلة السابقة لفتح هذه المرحلة.</div>
+  </section>
+
+  <section class="stage locked" id="stage6" data-stage="6">
+    <div class="stage-top"><div class="step-num">٦</div><div><h3>مساحة رأيك: فكّر وشارك</h3><p class="stage-sub">صوتك مهم، والتفكير النقدي يبدأ بسؤال جيد.</p></div></div>
+    <div class="stage-content">
+      <label class="field" for="opinion"><span>برأيك، كيف يمكن لتقرير موثوق أن يخدم المدرسة أو المجتمع في سلطنة عُمان؟</span><textarea id="opinion" maxlength="500" placeholder="اكتب رأيك في جملتين أو أكثر..."></textarea></label>
+      <button class="btn btn-primary" onclick="saveOpinion()">حفظ رأيي والانتقال</button><div class="feedback" id="opinionFeedback"></div><div class="status-line" id="status6"></div>
+    </div><div class="locked-note">🔒 أكمل المرحلة السابقة لفتح هذه المرحلة.</div>
+  </section>
+
+  <section class="stage locked" id="stage7" data-stage="7">
+    <div class="stage-top"><div class="step-num">٧</div><div><h3>المهمة الإبداعية الختامية</h3><p class="stage-sub">أنت الآن المراسل المسؤول: اكتب تقريرك واحتفظ به.</p></div></div>
+    <div class="stage-content">
+      <div class="final-task"><h4 style="margin:0 0 8px">🎬 المهمة: تقرير في ٥ جمل</h4><p>اختر موضوعًا قريبًا من حياتك، مثل المحافظة على مرافق المدرسة أو مبادرة بيئية أو السلامة أثناء الطقس. اكتب تقريرًا يتضمن عنوانًا، ومعلومة موثوقة، ونتيجة، وتوصية. لا تستخدم بيانات شخصية ولا تنسب معلومة إلى مصدر لم تتحقق منه.</p>
+        <div class="field"><label for="finalTitle">عنوان التقرير</label><input id="finalTitle" maxlength="100" placeholder="عنوان واضح ومختصر"></div>
+        <div class="field"><label for="finalBody">نص التقرير</label><textarea id="finalBody" maxlength="1500" placeholder="اكتب تقريرك هنا. اذكر الحقائق بوضوح، ثم النتيجة والتوصية."></textarea></div>
+        <button class="btn btn-primary" onclick="finishLesson()">إنهاء الدرس وتجهيز التقرير</button>
+        <button class="btn btn-outline" onclick="downloadReport()">تنزيل التقرير بصيغة TXT</button>
+        <div class="feedback" id="finalFeedback"></div>
+      </div>
+      <div class="status-line" id="status7"></div>
+    </div><div class="locked-note">🔒 أكمل المرحلة السابقة لفتح هذه المرحلة.</div>
+  </section>
+</main>
+<footer class="footer"><strong>مراسلون رقميون 🇴🇲</strong><small>درس تفاعلي في تقنية المعلومات • الصف التاسع</small><small>تذكّر: تحقّق، نظّم، ثم انشر بمسؤولية.</small></footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>
+const completed=new Set();
+const answers={expert:null,q1:null,q2:null,q3:null};
+let reportDraft='';
+function toast(message){const t=document.getElementById('toast');t.textContent=message;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2600)}
+function updateProgress(){const n=completed.size;document.getElementById('progressText').textContent=n+' من 7';document.getElementById('progressFill').style.width=(n/7*100)+'%';document.getElementById('progressCaption').textContent=n===7?'أحسنت! أكملت رحلة المراسل الرقمي.':n===0?'ابدأ بالمرحلة الأولى لفتح بقية المراحل.':'أكملت '+n+' مراحل. تابع حتى تنهي التقرير الختامي.'}
+function completeStage(n){if(completed.has(n))return;completed.add(n);const stage=document.getElementById('stage'+n);stage.classList.add('done');document.getElementById('status'+n).textContent='تم إنجاز المرحلة بنجاح ✓';if(n<7){const next=document.getElementById('stage'+(n+1));next.classList.remove('locked');toast('رائع! فُتحت المرحلة '+(n+1));next.scrollIntoView({behavior:'smooth',block:'start'})}else{toast('اكتملت جميع مراحل الدرس!')}updateProgress()}
+function checkEthics(){const checks=[...document.querySelectorAll('.ethics')];const fb=document.getElementById('ethicsFeedback');if(checks.every(c=>c.checked)){fb.textContent='أحسنت! ميثاقك يحمي دقة المعلومة وحقوق الآخرين.';fb.className='feedback good';completeStage(2)}else{fb.textContent='راجع البنود الثلاثة وحدد كل الممارسات المسؤولة.';fb.className='feedback bad'}}
+function choose(button,correct,message){const group=button.parentElement;group.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed','false'));button.setAttribute('aria-pressed','true');answers.expert=correct;const fb=document.getElementById('expertFeedback');fb.textContent=message;fb.className='feedback '+(correct?'good':'bad');if(correct)completeStage(3)}
+function quiz(button,correct,message){const group=button.parentElement;group.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed','false'));button.setAttribute('aria-pressed','true');answers[group.dataset.question]=correct;const fb=document.getElementById(group.dataset.question+'Feedback');fb.textContent=message;fb.className='feedback '+(correct?'good':'bad')}
+function checkQuiz(){const keys=['q1','q2','q3'];if(keys.every(k=>answers[k]===true)){document.getElementById('status4').textContent='النتيجة: ٣ من ٣ — ممتاز! ✓';completeStage(4)}else{const count=keys.filter(k=>answers[k]===true).length;document.getElementById('status4').textContent='نتيجتك الحالية: '+count+' من 3. راجع التغذية الراجعة وحاول مرة أخرى.';toast('تحتاج إلى إجابة صحيحة عن الأسئلة الثلاثة لفتح التحدي الجماعي.')}}
+function buildReport(){const title=document.getElementById('reportTitle').value.trim();const fact=document.getElementById('reportFact').value.trim();const advice=document.getElementById('reportAdvice').value.trim();const fb=document.getElementById('reportFeedback');if(title.length<4||fact.length<12||advice.length<12){fb.textContent='أكمل العنوان والحقيقة والتوصية بتفاصيل كافية.';fb.className='feedback bad';return}reportDraft=title+'\n\nأظهرت الاستبانة الصفية التدريبية الافتراضية أن 15 من أصل 20 طالبًا يتحققون من مصدر الأخبار، بينما لا يتحقق 5 طلاب دائمًا.\n\nملاحظة الفريق: '+fact+'\n\nالتوصية: '+advice+'\n\nتنبيه: الأرقام المذكورة افتراضية لأغراض التدريب.';const out=document.getElementById('reportOutput');out.textContent=reportDraft;out.classList.add('show');fb.textContent='مسودة أولية جاهزة. تأكد أن الحقيقة متوافقة مع الأرقام قبل التسليم.';fb.className='feedback good';completeStage(5)}
+function saveOpinion(){const v=document.getElementById('opinion').value.trim();const fb=document.getElementById('opinionFeedback');if(v.length<20){fb.textContent='اكتب رأيك في جملتين قصيرتين على الأقل.';fb.className='feedback bad';return}fb.textContent='تم حفظ رأيك داخل هذه الصفحة. أحسنت في التفكير والمشاركة!';fb.className='feedback good';completeStage(6)}
+function finishLesson(){const title=document.getElementById('finalTitle').value.trim();const body=document.getElementById('finalBody').value.trim();const fb=document.getElementById('finalFeedback');if(title.length<4||body.length<60){fb.textContent='أضف عنوانًا واضحًا ونصًا من ٣ إلى ٥ جمل قبل إنهاء المهمة.';fb.className='feedback bad';return}fb.textContent='أحسنت! أتممت المهمة الختامية. يمكنك تنزيل تقريرك للاحتفاظ به.';fb.className='feedback good';completeStage(7)}
+function downloadReport(){const title=document.getElementById('finalTitle').value.trim();const body=document.getElementById('finalBody').value.trim();if(title.length<1||body.length<1){toast('اكتب عنوان التقرير ونصه أولًا.');return}const blob=new Blob(['تقرير المراسل الرقمي\n'+title+'\n\n'+body+'\n\nأُعدّ ضمن درس تفاعلي للصف التاسع.'],{type:'text/plain;charset=utf-8'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='taqreer-morasil-digital.txt';document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(url);toast('تم تجهيز ملف التقرير للتنزيل.')}
+updateProgress();
+</script>
+</body>
+</html>
